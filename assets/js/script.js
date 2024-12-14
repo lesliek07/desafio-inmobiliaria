@@ -17,6 +17,7 @@ switch(path){
 }
 
 function primerasV(){
+    console.log('hola')
     const tresPrimeros = propiedades_venta.slice(0, 3);
     const vt = document.getElementById('venta');
     tresPrimeros.forEach((ventas)=>{
