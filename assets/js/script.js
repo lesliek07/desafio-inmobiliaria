@@ -2,16 +2,16 @@
 const path = window.location.pathname
 console.log(path)
 switch(path){
-    case '/index.html':
+    case '../index.html':
         console.log('primera')
         primerasV();
         primerosA();
         break;
-    case '/propiedades_venta.html':
+    case '../propiedades_venta.html':
         console.log('segunda')
         ventas();
     break;
-    case '/propiedades_alquiler.html':
+    case '../propiedades_alquiler.html':
         console.log('tercera')
         alquiler();
     break;
