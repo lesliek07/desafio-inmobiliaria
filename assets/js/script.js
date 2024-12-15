@@ -2,19 +2,17 @@
 const path = window.location.pathname
 console.log(path)
 switch(path){
-    case './desafio-inmobiliaria/index.html':
-      console.log('primera')
+    case '/index.html':
         console.log('primera')
         primerasV();
         primerosA();
-        break;
-    case './desafio-inmobiliaria/propiedades_venta.html':
-      console.log('segunda')
+    break;
+    case '/propiedades_venta.html':
+      
         console.log('segunda')
         ventas();
     break;
-    case './desafio-inmobiliaria/propiedades_alquiler.html':
-      console.log('tercera')
+    case '/propiedades_alquiler.html':
         console.log('tercera')
         alquiler();
     break;
